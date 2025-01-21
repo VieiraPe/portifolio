@@ -10,7 +10,7 @@ const Nav = () => {
     const content = (
         <>
         <div className=' xl:hidden block absolute top-20 w-full left-0 right-0 bg-slate-100 transition z-10 opacity-70'>
-            <ul className='text-center text-lg p-20'>
+            <ul className='text-center text-lg p-40'>
                 <li className='uppercase my-4 px-1 py-2 border-b border-slate-800 hover:bg-slate-100 hover:rounded active:border-slate-600'>
                     Sobre mim
                 </li>
@@ -31,7 +31,7 @@ const Nav = () => {
 
   return (
     <nav>
-        <div className='h-[10vh] flex justify-between top-20 z-50 md:px-20 p-5'>
+        <div className='h-[10vh] flex justify-between top-20 z-50 md:px-40 p-5'>
             <div className='flex items-center flex-1'>
                 <h3>VIEIRA PEDRO</h3>
             </div>

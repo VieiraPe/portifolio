@@ -1,0 +1,14 @@
+const Sobremim = () => {
+  return (
+    <div className=" p-40 bg-slate-300">
+        <div className="pr-96 ">
+            <h1 className="text-xl">Sobre mim</h1>
+            <p className="text-3xl font-semibold mb-4">Sou um desenvolvedor Front End</p>
+            <p className="mb-4">Olá! Sou um desenvolvedor front-end de 27 anos, apaixonado por tecnologia e pela criação de interfaces que proporcionam experiências incríveis para os usuários. Estou cursando o segundo período de Análise e Desenvolvimento de Sistemas na Estácio de Sá, onde venho aprofundando meus conhecimentos em desenvolvimento de software e engenharia de sistemas.</p>
+            <p className="mb-4">Trabalho com tecnologias modernas e eficientes para desenvolver soluções criativas e responsivas. </p>           
+        </div>
+    </div>
+  )
+}
+
+export default Sobremim

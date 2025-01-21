@@ -2,7 +2,7 @@ import { FaGithub,  FaLinkedin } from "react-icons/fa"
 
 const Main = () => {
   return (
-    <main className="bg-slate-100 px-20 py-20">
+    <main className="bg-slate-100 px-40 py-20">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 ">
             <div className="">
                 <h1 className="text-3xl font-extrabold mb-4">Olá, eu sou Pedro Vieira.</h1>
