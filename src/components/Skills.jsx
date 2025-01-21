@@ -1,41 +1,43 @@
-import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa"
+import { FaBootstrap, FaCss3Alt, FaGitAlt, FaHtml5, FaNode, FaReact } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import { RiTailwindCssFill } from "react-icons/ri"
-import { SiPostman, SiVite } from "react-icons/si"
+import { SiMongodb, SiPostman, SiVite } from "react-icons/si"
 
 const Skills = () => {
   return (
-    <div className=" bg-slate-100 px-40 py-20">
+    <div className=" bg-slate-100 px-5 md:px-40 py-20">
 
         <div className="flex justify-center">
-                <h1 className=" text-4xl font-bold pb-6">Skills</h1>
+                <h1 className=" text-4xl font-bold pb-10">Skills</h1>
         </div>
 
-        <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 ">
-            <div className="flex flex-col justify-center text-3xl pb-4 ">
+        <div className="grid lg:grid-cols-2  md:grid-cols-1 grid-cols-1 ">
+            <div className="flex flex-col justify-center items-center text-3xl pb-20 ">
                 <h3 className="pb-6">Linguagens e frameworks</h3>
-                <div className="text-6xl flex justify-center">
+                <div className="text-6xl flex justify-center gap-4">
                     <FaHtml5 />
                     <FaCss3Alt />
                     <IoLogoJavascript />
                     <FaReact />
+                    <FaNode />
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-3xl pb-4 ">
-                <h3 className="pb-6">Estilização</h3>
-                <div className="text-6xl flex justify-center">
+            <div className="flex flex-col justify-center items-center text-3xl pb-20 ">
+                <h3 className="pb-6">Estilização e Ferramentas</h3>
+                <div className="text-6xl flex justify-center gap-4">
                     <RiTailwindCssFill />
                     <FaBootstrap />
-                </div>
-            </div>
-            <div className="flex flex-col justify-center items-center text-3xl pb-4 ">
-                <h3 className="pb-6">Ferramentas</h3>
-                <div className="text-6xl flex justify-center">
+                    <SiPostman />
                     <SiVite />
-                    <SiPostman />       
+                    <FaGitAlt />
                 </div>
             </div>
-
+            <div className="flex flex-col justify-center items-center text-3xl pb-20">
+                <h3 className="pb-6">Banco de dados</h3>
+                <div className="text-6xl flex justify-center">
+                    <SiMongodb />
+                </div>
+            </div>
            
         </div>
 
