@@ -31,13 +31,13 @@ const Nav = () => {
 
   return (
     <nav>
-        <div className='h-[10vh] flex justify-between top-20 z-50 md:px-40 p-5'>
+        <div className='h-[6vh] flex justify-between top-20 z-50 md:px-40 p-5  '>
             <div className='flex items-center flex-1'>
                 <h3>VIEIRA PEDRO</h3>
             </div>
             <div className='xl:flex lg:flex xl:flex-1 bg-center justify-end font-normal hidden'>
                 <div className='flex items-center'>
-                    <ul className='flex gap-8 mr-16 text-md'>
+                    <ul className='flex gap-8 text-sm'>
                         <li className='uppercase my-4 px-1 py-2 border-b border-slate-800 hover:bg-slate-100 hover:rounded active:border-slate-600 texte-slate-100 cursor-pointer'>
                             Sobre mim
                         </li>
@@ -45,7 +45,7 @@ const Nav = () => {
                             Experiências
                         </li>
                         <li className='uppercase my-4 px-1 py-2 border-b border-slate-800 hover:bg-slate-100 hover:rounded active:border-slate-600 texte-slate-100 cursor-pointer'>
-                            Projects
+                            Skills
                         </li>             
                         <li className='uppercase my-4 px-1 py-2 border-b border-slate-800 hover:bg-slate-100 hover:rounded active:border-slate-600 texte-slate-100 cursor-pointer'>
                             Contatos

@@ -2,11 +2,11 @@ import { FaGithub,  FaLinkedin } from "react-icons/fa"
 
 const Main = () => {
   return (
-    <main className="bg-slate-100 px-40 py-20">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 ">
+    <main className="bg-slate-100  py-20">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 container ">
             <div className="">
-                <h1 className="text-3xl font-extrabold mb-4">Olá, eu sou Pedro Vieira.</h1>
-                <p className="mb-4 text-xl">Desenvolvedor Front End</p>
+                <h1 className="text-4xl font-extrabold mb-4">Olá, eu sou Pedro Vieira.</h1>
+                <p className=" text-2xl">Desenvolvedor Front End</p>
                 <div>
                 <div className="flex gap-5 text-xl px-2 mb-16">
                     
